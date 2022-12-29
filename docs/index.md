@@ -1,4 +1,4 @@
-# Bem-Vindo
+# Bem-Vindo 🚀
 
 # Olá, este é o **Portal de Documentação** da Facile Sistemas!
 
