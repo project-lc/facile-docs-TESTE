@@ -50,9 +50,4 @@ Estamos colaborando para a **construção do futuro** das integrações com as i
 
 Para suporte específico favor registrar o ticket no portal: [Central de Tickets](http://suporte.facilesistemas.com.br/)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 
