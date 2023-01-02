@@ -1,11 +1,54 @@
 site_name: Facile Docs
 
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  
+  features:
+    - navigation.tracking
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.follow
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Mudar para modo escuro
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para automático
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
 nav:
   - Home: 'index.md'
+  - Facile XML-e: 
+    - Introdução: 'xmle/index.md'
+    - Xmle: 'xmle/xmle.md'
+  - CIFA: 'cifa.md'
 
 plugins:
   - search
-
+  
 copyright: Copyright &copy; 2010 - 2022 Facile Sistemas
 
 extra:
@@ -22,40 +65,4 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/facile-solu-es-em-sistemas/
       name: LinkedIN
-
-theme:
-  name: material
-  language: pt-BR
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
-  
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.expand
-    - navigation.indexes
-    - navigation.top
-    - search.highlight
-    - search.share
-
-  palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
 
