@@ -11,7 +11,6 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
     - navigation.indexes
     - navigation.top
     - search.highlight
@@ -43,7 +42,9 @@ nav:
   - Home: 'index.md'
   - Facile XML-e: 
     - Introdução: 'xmle/index.md'
-    - Xmle: 'xmle/xmle.md'
+    - Download do Patch: 'xmle/download-patch.md'
+    - Instalação:
+      - Dicionário de Dados: 'xmle/instalacao/dicionario-dados.md'
   - CIFA: 'cifa.md'
 
 plugins:

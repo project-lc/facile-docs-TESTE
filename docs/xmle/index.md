@@ -40,7 +40,6 @@ A Ferramenta FACILE XML-e possui uma rotina que trabalha de maneira automática 
 
 ![GestaoaVista](../assets/xmle_kpi.png "Gestão à Vista")
 
-
 ## E ainda tem mais...
 
 - Consulta avançada de produtos, diminuindo os erros na amarração Produto X fornecedor
@@ -57,15 +56,25 @@ A Ferramenta FACILE XML-e possui uma rotina que trabalha de maneira automática 
 
 - Regras inteligentes para geração automática do documento de entrada
 
+### 
 
 ### CheckDoc
+
 ![CheckDoc](../assets/xmle_checkdoc.png "CheckDoc")
 
+### 
+
 ### Confronto de Impostos
+
 ![Confronto](../assets/xmle_confronto.png "Confronto de Impostos")
 
+### 
+
 ### Configurações simplificadas
+
 ![wizard](../assets/xmle_wizard.png "Wizard de Configuração")
+
+## 
 
 ## Suporte
 
