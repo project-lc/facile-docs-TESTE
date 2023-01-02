@@ -18,14 +18,17 @@ theme:
     - toc.follow
 
   palette:
+
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
+      primary: blue
       toggle:
         icon: material/brightness-auto
         name: Mudar para modo escuro
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
+      primary: blue
       scheme: default 
       toggle:
         icon: material/brightness-7
@@ -33,6 +36,7 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: blue
       scheme: slate
       toggle:
         icon: material/brightness-4
@@ -43,8 +47,9 @@ nav:
   - Facile XML-e: 
     - Introdução: 'xmle/index.md'
     - Download do Patch: 'xmle/download-patch.md'
+    - Dicionário de Dados: 'xmle/instalacao/dicionario-dados.md'
     - Instalação:
-      - Dicionário de Dados: 'xmle/instalacao/dicionario-dados.md'
+      - Passo 01 - Compatibilizador: 'xmle/instalacao/compatibilizador.md'
   - CIFA: 'cifa.md'
 
 plugins:
