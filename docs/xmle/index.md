@@ -14,7 +14,7 @@ Uma ferramenta integrada ao ERP visando controle e agilidade nos processos de en
 
 A Ferramenta FACILE XML-e possui uma rotina que trabalha de maneira automática e transparente, monitorando no SEFAZ os documentos fiscais emitidos pelos fornecedores e disponibilizando diversas funcionalidades no ERP como: Manifestação do Destinatário, Importação do XML, Relatórios, Confronto de Impostos calculados pelo ERP versus Impostos do XML, entre outros.
 
-![Processo](/assets/xmle_processo.png "XML-e Processo")
+![Processo](../assets/xmle_processo.png "XML-e Processo")
 
 ## 
 
@@ -38,7 +38,7 @@ A Ferramenta FACILE XML-e possui uma rotina que trabalha de maneira automática 
 
 - Diretamente do SEFAZ, sem nuvem!
 
-![GestaoaVista](/assets/xmle_kpi.png "Gestão à Vista")
+![GestaoaVista](../assets/xmle_kpi.png "Gestão à Vista")
 
 
 ## E ainda tem mais...
@@ -59,13 +59,13 @@ A Ferramenta FACILE XML-e possui uma rotina que trabalha de maneira automática 
 
 
 ### CheckDoc
-![CheckDoc](/assets/xmle_checkdoc.png "CheckDoc")
+![CheckDoc](../assets/xmle_checkdoc.png "CheckDoc")
 
 ### Confronto de Impostos
-![Confronto](/assets/xmle_confronto.png "Confronto de Impostos")
+![Confronto](../assets/xmle_confronto.png "Confronto de Impostos")
 
 ### Configurações simplificadas
-![wizard](/assets/xmle_wizard.png "Wizard de Configuração")
+![wizard](../assets/xmle_wizard.png "Wizard de Configuração")
 
 ## Suporte
 
