@@ -8,7 +8,7 @@ Nossas aplicações são para uso e benefício dos nossos clientes, caso você q
 
 ## Aplicações disponíveis
 
-### Facile XML-e
+### [Facile XML-e](xmle/index.md)
 
 O mais completo gerenciador de NF-e, CT-e e NFS-e diretamente no seu ERP. 
 
@@ -24,7 +24,7 @@ O mais completo gerenciador de NF-e, CT-e e NFS-e diretamente no seu ERP.
 
 - Diretamente do SEFAZ, sem nuvem!
 
-### CIFA - Central de inteligência financeira automática
+### [CIFA - Automação Financeira](cifa/index.md)
 
 Estamos colaborando para a **construção do futuro** das integrações com as instituições bancárias.
 
