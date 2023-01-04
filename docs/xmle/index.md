@@ -8,7 +8,11 @@ O mais completo gerenciador de NF-e, CT-e e NFS-e diretamente no seu ERP.
 
 Uma ferramenta integrada ao ERP visando controle e agilidade nos processos de entrada de documento eletrônico e Confronto de Impostos.
 
-## 
+## Posso testar?
+
+**Sim**, você pode estar aplicando o Facile XML-e em seu ERP e experimenta-lo de forma totalmente gratuíta e sem compromisso, não precisa assinar nada para isso!
+
+Basta enviar um e-mail para: [xmle@facilesistemas.com.br](mailto:xmle@facilesistemas.com.br)
 
 ## Como Funciona?
 

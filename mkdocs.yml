@@ -21,14 +21,14 @@ theme:
 
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: blue
+      # primary: blue
       toggle:
         icon: material/brightness-auto
         name: Mudar para modo escuro
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: blue
+      # primary: blue
       scheme: default 
       toggle:
         icon: material/brightness-7
@@ -36,7 +36,7 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: blue
+      # primary: blue
       scheme: slate
       toggle:
         icon: material/brightness-4
@@ -46,10 +46,15 @@ nav:
   - Home: 'index.md'
   - Facile XML-e: 
     - Introdução: 'xmle/index.md'
+    - Notas de Versão: 'xmle/release-notes.md'
     - Download do Patch: 'xmle/download-patch.md'
-    - Dicionário de Dados: 'xmle/instalacao/dicionario-dados.md'
+    - Dicionário de Dados: 'xmle/dicionario-dados.md'
     - Instalação:
-      - Passo 01 - Compatibilizador: 'xmle/instalacao/compatibilizador.md'
+      - Passo 01 - Aplicando o Patch: 'xmle/instalacao/aplicar-patch.md'
+      - Passo 02 - Compatibilizador: 'xmle/instalacao/compatibilizador.md'
+      - Passo 03 - Pontos de Entrada: 'xmle/instalacao/ponto-entrada-padrao.md'
+      - Passo 04 - Criando os Menus: 'xmle/instalacao/menus.md'
+      - Passo 05 - Configurar os Jobs: 'xmle/instalacao/configura-jobs.md'
   - CIFA: 'cifa.md'
 
 plugins:
