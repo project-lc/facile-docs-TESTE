@@ -65,7 +65,7 @@ REFRESHRATE=4000
 
 Basta salvar o appserver.ini com essas alterações.
 
-## Appserver_Facile_Xml02
+### Appserver_Facile_Xml02
 
 Crie um novo appserver baseado no appserver de produção e renomeie para "appserver_facile_xml02".
 
@@ -196,7 +196,7 @@ Na tela de recorrência:
 
 Agora sim podemos confirmar a tela de recorrência e a tela de cadastro do agendamento ✔️.
 
-## RPO dos JOBs
+## RPO do JOB
 
 O RPO do ambiente que executa os JOBs precisa estar com o patch da ferramenta aplicado e recomendamos que não seja compartilhado com outros ambientes. No caso do Schedule, irá utilizar o próprio RPO do ambiente Schedule e também necessita do patch aplicado.
 
