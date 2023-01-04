@@ -18,7 +18,7 @@ Basta enviar um e-mail para: [xmle@facilesistemas.com.br](mailto:xmle@facilesist
 
 A Ferramenta FACILE XML-e possui uma rotina que trabalha de maneira automática e transparente, monitorando no SEFAZ os documentos fiscais emitidos pelos fornecedores e disponibilizando diversas funcionalidades no ERP como: Manifestação do Destinatário, Importação do XML, Relatórios, Confronto de Impostos calculados pelo ERP versus Impostos do XML, entre outros.
 
-![Processo](../assets/xmle_processo.png "XML-e Processo")
+![Processo](../assets/xmle_fluxo2.png "XML-e Processo")
 
 ## 
 
