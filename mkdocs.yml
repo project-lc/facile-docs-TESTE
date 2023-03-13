@@ -55,6 +55,8 @@ nav:
       - Passo 03 - Pontos de Entrada: 'xmle/instalacao/ponto-entrada-padrao.md'
       - Passo 04 - Criando os Menus: 'xmle/instalacao/menus.md'
       - Passo 05 - Configurar os Jobs: 'xmle/instalacao/configura-jobs.md'
+    - Manuais:
+      - 01 - Manual do Usuário: 'xmle/manuais/manual-usuario.md'
   - CIFA:
     - Introdução: 'cifa/index.md'
 
