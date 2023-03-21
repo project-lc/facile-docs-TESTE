@@ -56,7 +56,8 @@ nav:
       - Passo 04 - Criando os Menus: 'xmle/instalacao/menus.md'
       - Passo 05 - Configurar os Jobs: 'xmle/instalacao/configura-jobs.md'
     - Manuais:
-      - 01 - Manual do Usuário: 'xmle/manuais/manual-usuario.md'
+      - 03 - Manual do Usuário: 'xmle/manuais/manual-usuario.md'
+      - 09 - CheckDoc: 'xmle/manuais/checkdoc.md'
   - CIFA:
     - Introdução: 'cifa/index.md'
 
