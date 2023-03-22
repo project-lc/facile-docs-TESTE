@@ -108,33 +108,25 @@ Com base na execução da rotina JOB, integrante do FACILE XML-e, para apuraçã
 
 Este arquivo é registrado em diretório específico ligado ao webservice – Protheus®.
 
-<div style="text-align: center">
-<img src="/assets/webservice/ws_direweb.png" alt="Diretório Webservice"><br>
-<span>Figura 01: Diretório Webservice</span></div>
-<br>
+<center>![Figura 01: Diretório Webservice](../../assets/webservice/ws_direweb.png "Diretório Webservice")
+<br><span>Figura 01: Diretório Webservice</span><br></center>
 
 O mesmo é gerado a partir da execução POST, pelo JOB, da API : FACILE\_CHECKDOC, gerada no ambiente REST.
 
-<div style="text-align: center">
-<img src="/assets/webservice/ws_rest.png" alt="Ambiente REST"><br>
-<span>Figura 02: Ambiente REST</span></div>
-<br>
+<center>![Figura 02: Ambiente REST](../../assets/webservice/ws_rest.png "Ambiente REST")
+<br><span>Figura 02: Ambiente REST</span><br></center>
 
 Ao receber o e-mail contendo as informações de divergência, passe-se a observar e ter a ação de click na coluna: Chave.
 
 Ao clicar na informação, será aberto – em navegador WEB (browse), o arquivo contendo as informações apuradas.
 
-<div style="text-align: center">
-<img src="/assets/webservice/ws_divenc.png" alt="Divergência encontrada"><br>
-<span>Figura 03: Divergência encontrada</span></div>
-<br>
+<center>![Figura 03: Divergência encontrada](../../assets/webservice/ws_divenc.png "Divergência encontrada")
+<br><span>Figura 03: Divergência encontrada</span><br></center>
 
 Ao clicar em um dos links abrirá sua consulta:
 
-<div style="text-align: center">
-<img src="/assets/webservice/ws_consulta.png" alt="Consulta da divergência"><br>
-<span>Figura 04: Consulta da divergência</span></div>
-<br>
+<center>![Figura 04: Consulta da divergência](../../assets/webservice/ws_consulta.png "Consulta da divergência")
+<br><span>Figura 04: Consulta da divergência</span><br></center>
 
 
 ## Workflow de notificação Checkdoc
