@@ -58,6 +58,7 @@ nav:
     - Manuais:
       - 03 - Manual do Usuário: 'xmle/manuais/manual-usuario.md'
       - 09 - CheckDoc: 'xmle/manuais/checkdoc.md'
+      - 14 - Configuração do Webservice Checkdoc: 'xmle/manuais/webservice.md'
   - CIFA:
     - Introdução: 'cifa/index.md'
 

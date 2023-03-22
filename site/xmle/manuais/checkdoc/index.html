@@ -12,7 +12,7 @@
         <link rel="prev" href="../manual-usuario/">
       
       
-        <link rel="next" href="../../../cifa/">
+        <link rel="next" href="../webservice/">
       
       <link rel="icon" href="../../../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.0">
@@ -520,6 +520,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
@@ -645,6 +647,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../webservice/" class="md-nav__link">
+        14 - Configuração Webservice do Checkdoc
+      </a>
     </li>
   
 
@@ -803,6 +819,25 @@
                   
 
 
+<style>
+    p{
+        text-align: justify;
+    }
+    span{
+        font-style: italic; 
+        font-size: 15px;
+    }
+    #green{
+        background-color: #16F529;
+    }
+    #red{
+        background-color: red;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+</style>
+
 <h1 id="checkdoc">Checkdoc</h1>
 <h2 id="introducao">Introdução</h2>
 <p>O objetivo do CheckDoc é realizar uma análise do XML recebido do Sefaz e verificar no ERP Protheus se as informações contidas nele estão corretas.</p>
@@ -815,55 +850,122 @@
 <h2 id="como-usar">Como usar?</h2>
 <p>Para que um documento seja analisado pelo <strong>CheckDoc</strong>, basta selecioná-lo na tela principal da Central XML-e e chamar a ferramenta conforme demonstrado na imagem abaixo:</p>
 <p>Caminho: <strong>Central XML-e/Outras Ações/CheckDoc</strong></p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.004.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/checkdoc_oa.png" alt="Checkdoc no 'Outras ações'"><br>
+<span>Figura 1: Checkdoc no "Outras ações"</span></div>
+<p><br></p>
 <p>Será apresentado a imagem abaixo com as opções “Visualizar análise atual”, “Realizar nova análise” e “Fechar”.</p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.005.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/rel_docfiscal.png" alt="Realiza a análise do Documento Fiscal"><br>
+<span>Figura 2: Realiza a análise do Documento Fiscal</span></div>
+<p><br></p>
 <p>A opção <strong>“Visualizar análise atual”</strong> irá demonstrar o resultado da última análise do CheckDoc nesse documento e a opção <strong>“Realizar nova análise”</strong> irá executar todas as verificações novamente e gerar um novo resultado.</p>
 <p>Ao selecionar a opção de realizar nova análise, basta aguardar o processamento terminar e você já poderá visualizar o resultado da análise.</p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.006.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/visualizar_res.png" alt="Visualizar resultado da análise"><br>
+<span>Figura 3: Visualizar resultado da análise</span></div>
+<p><br></p>
 <p>Clicando em “SIM”, será solicitado a pasta onde o relatório em HTML será salvo e em seguida já o abrirá automaticamente.</p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.007.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/salvar_rel.png" alt="Salvar relatório"><br>
+<span>Figura 4: Salvar relatório</span></div>
+<p><br></p>
 <p>O cabeçalho do relatório demonstra os principais dados do documento, como número, série, valor, natureza da operação etc.</p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.008.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/cabecalho_rel.png" alt="Cabeçalho relatório"><br>
+<span>Figura 5: Cabeçalho relatório</span></div>
+<p><br></p>
 <h2 id="fornecedor">Fornecedor</h2>
 <p>No setor “<strong>Fornecedor</strong>” será realizado a análise das informações do fornecedor que está no Protheus e as informações que estão no XML.</p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.009.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/forn_protxml.png" alt="Fornecedor Protheus x XML"><br>
+<span>Figura 6: Comparação dos dados do Fornecedor</span></div>
+<p><br></p>
 <p>São geradas duas linhas, sendo a primeira com os dados do XML e a segunda com os dados encontrados no Protheus (isso se o fornecedor estiver cadastrado no Protheus).</p>
 <p>As colunas com inconsistência nas informações são destacadas em vermelho para melhor identificação.</p>
 <p>É possível configurar quais colunas que deseja auditar conforme abaixo:</p>
 <p>Criar um parâmetro com o nome ZZ_FORNC1 do tipo lógico, então se o conteúdo dele for .T. a coluna será auditada.</p>
 <p>O número no final do parâmetro ZZ_FORNC<strong>1</strong> corresponde a posição da coluna em questão, contando da esquerda para a direita, portando se quiser auditar a coluna CNPJ/CPF, por exemplo, deverá ativar o parâmetro ZZ_FORNC4.</p>
 <h3 id="validacoes-do-fornecedor">Validações do fornecedor</h3>
+<ul>
+<li>
 <p>ZZ_FORNC1  - Origem (XML e ERP)</p>
+</li>
+<li>
 <p>ZZ_FORNC2  - Valida a razão social</p>
+</li>
+<li>
 <p>ZZ_FORNC3  - Valida o nome fantasia</p>
+</li>
+<li>
 <p>ZZ_FORNC4  - Valida o CNPJ</p>
+</li>
+<li>
 <p>ZZ_FORNC5  - Valida a inscrição estadual</p>
+</li>
+<li>
 <p>ZZ_FORNC6  - Valida o bairro</p>
+</li>
+<li>
 <p>ZZ_FORNC7  - Valida o código município</p>
+</li>
+<li>
 <p>ZZ_FORNC8  - Valida o Município</p>
+</li>
+<li>
 <p>ZZ_FORNC9  - Valida a UF</p>
+</li>
+<li>
 <p>ZZ_FORNC10 - Valida o CEP</p>
+</li>
+</ul>
 <h2 id="produtos">Produtos</h2>
 <p>No setor “<strong>Produtos</strong>” será realizado a análise das informações do produto e pedido de compra que está no Protheus e as informações que estão no XML.</p>
-<p><img alt="" src="Aspose.Words.44399a63-17ee-4db0-87d3-a303fda8a67f.010.png" /></p>
+<div style="text-align: center">
+<img src="/assets/checkdoc/prod_protxml.png" alt="Produtos Protheus x XML"><br>
+<span>Figura 7: Comparação dos dados dos Produtos</span></div>
+<p><br></p>
 <p>São geradas duas linhas para cada item do XML, sendo a primeira com os dados do XML e a segunda com os dados encontrados no Protheus (isso se o fornecedor enviar os dados do pedido de compra nas tags corretas ou pelo menos já existir a amarração Produto x Fornecedor).</p>
 <p>As colunas com inconsistência nas informações são destacadas em vermelho para melhor identificação.</p>
 <p>É possível configurar quais colunas que deseja auditar conforme abaixo:</p>
 <p>Criar um parâmetro com o nome ZZ_PRODC1 do tipo lógico, então se o conteúdo dele for .T. a coluna será auditada.</p>
 <p>O número no final do parâmetro ZZ_PRODC<strong>1</strong> corresponde a posição da coluna em questão, contando da esquerda para a direita, portando se quiser auditar a coluna “<strong>Numero PC</strong>”, por exemplo, deverá ativar o parâmetro ZZ_PRODC6.</p>
 <h3 id="validacoes-dos-produtos">Validações dos produtos</h3>
+<ul>
+<li>
 <p>ZZ_PRODC1   - Valida o total de itens no xml</p>
+</li>
+<li>
 <p>ZZ_PRODC3   - Valida se o código do produto</p>
+</li>
+<li>
 <p>ZZ_PRODC4   - Valida a descrição do produto </p>
+</li>
+<li>
 <p>ZZ_PRODC5   - Valida o NCM do produto </p>
+</li>
+<li>
 <p>ZZ_PRODC6   - Valida se o número do pedido de compra está igual ao do XML</p>
+</li>
+<li>
 <p>ZZ_PRODC7   - Valida se o número da ordem dos itens 001,002,...</p>
+</li>
+<li>
 <p>ZZ_PRODC8   - Valida a quantidade</p>
+</li>
+<li>
 <p>ZZ_PRODC9   - Valida o preço unitário</p>
+</li>
+<li>
 <p>ZZ_PRODC10  - Valida o preço total do item </p>
+</li>
+<li>
 <p>ZZ_PRODC11  - Valida a unidade de medida</p>
+</li>
+<li>
 <p>ZZ_PRODC12  - Valida o tipo do frete CIF ou FOB</p>
+</li>
+</ul>
 <div style="text-align: center;">-FIM-</div>
 
 
