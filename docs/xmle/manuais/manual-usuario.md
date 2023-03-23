@@ -429,4 +429,4 @@ Irá apresentar o relatório comparando na linha de cima o que está no XML e na
 <center>![Figura 65: Relatório CheckDoc](../../assets/manual_usuario/xmle_relcheckdoc.png "Relatório CheckDoc")
 <br><span>Figura 65: Relatório CheckDoc</span><br></center>
 
-<div style="text-align: center;">-FIM-</div>
+<div style="text-align: center;">**-FIM-**</div>

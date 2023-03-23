@@ -140,4 +140,4 @@ O número no final do parâmetro ZZ\_PRODC**1** corresponde a posição da colun
 
 - ZZ\_PRODC12  - Valida o tipo do frete CIF ou FOB
 
-<div style="text-align: center;">-FIM-</div>
+<div style="text-align: center;">**-FIM-**</div>

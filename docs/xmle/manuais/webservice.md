@@ -156,4 +156,4 @@ O workflow será enviado através do job **PTXJ005**, que hoje já é utilizado 
 
 Para desativar o envio do workflow basta configurar o parâmetro **ZZ\_CHKRETR** com o valor 0 (zero).
 
-<div style="text-align: center;">-FIM-</div>
+<div style="text-align: center;">**-FIM-**</div>
