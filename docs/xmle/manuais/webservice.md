@@ -54,14 +54,14 @@ Parâmetros envolvidos:
 
 * <b>ZZ\_DFWEBS</b> - Parâmetro para registro do rootpath, do serviço webservice – Protheus, direcionado à pasta onde estarão salvos os arquivos, e que será utilizado para carga do arquivo em navegador web (browse). 
 
-**Exemplo: [http://192.168.200.171:8079/facile_checkdoc/**](http://192.168.200.171:8079/facile_checkdoc/)**
+**Exemplo:** [http://192.168.200.171:8079/facile_checkdoc/](http://192.168.200.171:8079/facile_checkdoc/)
 
 * <b>ZZ\_ECKDOC</b> - Parâmetros com e-mails que irão receber, separados por (;)
 
 **Exemplo:** compras@nomedaempresa.com.br;outroemail@nomedoemail.com.br 
 
 
-**ATENÇÃO**: São requisitos que as funcionalidades **HTTP** e **REST** do Protheus estejam configuradas e em execução para o correto funcionamento dessa rotina.
+**ATENÇÃO**: É necessário que a funcionalidade **HTTP** do Protheus esteja configurada e em execução para o correto funcionamento dessa rotina.
 
 
 ## Configuração do webservice Checkdoc
@@ -76,7 +76,7 @@ Ex. (<span style="color: red">em vermelho</span>)
 
     ;;Job Responsável pelo Workflow do Checkdoc
     [PTXJ005]
-    MAIN=U\_PTXJ005
+    MAIN=U_PTXJ005
     ENVIRONMENT=FACILE
     nparms=2
     Parm1=01

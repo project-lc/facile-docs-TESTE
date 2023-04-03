@@ -939,12 +939,12 @@
 <ul>
 <li><b>ZZ_DFWEBS</b> - Parâmetro para registro do rootpath, do serviço webservice – Protheus, direcionado à pasta onde estarão salvos os arquivos, e que será utilizado para carga do arquivo em navegador web (browse). </li>
 </ul>
-<p><strong>Exemplo: <a href="http://192.168.200.171:8079/facile_checkdoc/">http://192.168.200.171:8079/facile_checkdoc/**</a></strong></p>
+<p><strong>Exemplo:</strong> <a href="http://192.168.200.171:8079/facile_checkdoc/">http://192.168.200.171:8079/facile_checkdoc/</a></p>
 <ul>
 <li><b>ZZ_ECKDOC</b> - Parâmetros com e-mails que irão receber, separados por (;)</li>
 </ul>
 <p><strong>Exemplo:</strong> compras@nomedaempresa.com.br;outroemail@nomedoemail.com.br </p>
-<p><strong>ATENÇÃO</strong>: São requisitos que as funcionalidades <strong>HTTP</strong> e <strong>REST</strong> do Protheus estejam configuradas e em execução para o correto funcionamento dessa rotina.</p>
+<p><strong>ATENÇÃO</strong>: É necessário que a funcionalidade <strong>HTTP</strong> do Protheus esteja configurada e em execução para o correto funcionamento dessa rotina.</p>
 <h2 id="configuracao-do-webservice-checkdoc">Configuração do webservice Checkdoc</h2>
 <h3 id="appserver_facileini">Appserver_FACILE.ini</h3>
 <p>Incluir no serviço Appserver.ini destinado ao FACILE XML-e (normalmente nomeado como appserver_Facile.ini, Appserver01...), na pasta do serviço do Facile XML-e, o job <span style="color: red">PTXJ005</span>.</p>
@@ -952,7 +952,7 @@
 <p><b>AppServer01:</b></p>
 <pre><code>;;Job Responsável pelo Workflow do Checkdoc
 [PTXJ005]
-MAIN=U\_PTXJ005
+MAIN=U_PTXJ005
 ENVIRONMENT=FACILE
 nparms=2
 Parm1=01
