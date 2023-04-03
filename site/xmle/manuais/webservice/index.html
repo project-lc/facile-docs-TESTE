@@ -941,14 +941,6 @@
 </ul>
 <p><strong>Exemplo: <a href="http://192.168.200.171:8079/facile_checkdoc/">http://192.168.200.171:8079/facile_checkdoc/**</a></strong></p>
 <ul>
-<li><b>ZZ_DFREST</b> - Parâmetro para registro do rootpath, do serviço REST - Protheus, onde estará publicada a API: FACILE_CHECKDOC </li>
-</ul>
-<p><strong>Exemplo:</strong> <a href="http://192.168.200.171:8013/rest">http://192.168.200.171:8013/rest</a></p>
-<ul>
-<li><b>ZZ_CKDOCA</b> - Parâmetro para registro do path, contendo a API para o serviço REST – Protheus. </li>
-</ul>
-<p><strong>Exemplo:</strong> /facile_checkdoc </p>
-<ul>
 <li><b>ZZ_ECKDOC</b> - Parâmetros com e-mails que irão receber, separados por (;)</li>
 </ul>
 <p><strong>Exemplo:</strong> compras@nomedaempresa.com.br;outroemail@nomedoemail.com.br </p>
@@ -982,16 +974,13 @@ REFRESHRATE=4000
 <p>Este arquivo é registrado em diretório específico ligado ao webservice – Protheus®.</p>
 <p><center><img alt="Figura 01: Diretório Webservice" src="../../../assets/webservice/ws_direweb.png" title="Diretório Webservice" />
 <br><span>Figura 01: Diretório Webservice</span><br></center></p>
-<p>O mesmo é gerado a partir da execução POST, pelo JOB, da API : FACILE_CHECKDOC, gerada no ambiente REST.</p>
-<p><center><img alt="Figura 02: Ambiente REST" src="../../../assets/webservice/ws_rest.png" title="Ambiente REST" />
-<br><span>Figura 02: Ambiente REST</span><br></center></p>
 <p>Ao receber o e-mail contendo as informações de divergência, passe-se a observar e ter a ação de click na coluna: Chave.</p>
 <p>Ao clicar na informação, será aberto – em navegador WEB (browse), o arquivo contendo as informações apuradas.</p>
-<p><center><img alt="Figura 03: Divergência encontrada" src="../../../assets/webservice/ws_divenc.png" title="Divergência encontrada" />
-<br><span>Figura 03: Divergência encontrada</span><br></center></p>
+<p><center><img alt="Figura 02: Divergência encontrada" src="../../../assets/webservice/ws_divenc.png" title="Divergência encontrada" />
+<br><span>Figura 02: Divergência encontrada</span><br></center></p>
 <p>Ao clicar em um dos links abrirá sua consulta:</p>
-<p><center><img alt="Figura 04: Consulta da divergência" src="../../../assets/webservice/ws_consulta.png" title="Consulta da divergência" />
-<br><span>Figura 04: Consulta da divergência</span><br></center></p>
+<p><center><img alt="Figura 03: Consulta da divergência" src="../../../assets/webservice/ws_consulta.png" title="Consulta da divergência" />
+<br><span>Figura 03: Consulta da divergência</span><br></center></p>
 <h2 id="workflow-de-notificacao-checkdoc">Workflow de notificação Checkdoc</h2>
 <h3 id="resumo">Resumo</h3>
 <ol>
@@ -1012,7 +1001,7 @@ REFRESHRATE=4000
 <h3 id="passo-a-passo">Passo a passo</h3>
 <p>O workflow será enviado através do job <strong>PTXJ005</strong>, que hoje já é utilizado para realizar a primeira checagem do CheckDoc das notas fiscais baixadas do Sefaz.</p>
 <p>Para desativar o envio do workflow basta configurar o parâmetro <strong>ZZ_CHKRETR</strong> com o valor 0 (zero).</p>
-<div style="text-align: center;">**-FIM-**</div>
+<div style="text-align: center; font-weight: bold;">-FIM-</div>
 
 
 
