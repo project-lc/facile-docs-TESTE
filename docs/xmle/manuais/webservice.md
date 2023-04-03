@@ -56,14 +56,6 @@ Parâmetros envolvidos:
 
 **Exemplo: [http://192.168.200.171:8079/facile_checkdoc/**](http://192.168.200.171:8079/facile_checkdoc/)**
 
-* <b>ZZ\_DFREST</b> - Parâmetro para registro do rootpath, do serviço REST - Protheus, onde estará publicada a API: FACILE\_CHECKDOC 
-
-**Exemplo:** <http://192.168.200.171:8013/rest>
-
-* <b>ZZ\_CKDOCA</b> - Parâmetro para registro do path, contendo a API para o serviço REST – Protheus. 
-
-**Exemplo:** /facile\_checkdoc 
-
 * <b>ZZ\_ECKDOC</b> - Parâmetros com e-mails que irão receber, separados por (;)
 
 **Exemplo:** compras@nomedaempresa.com.br;outroemail@nomedoemail.com.br 
@@ -111,22 +103,17 @@ Este arquivo é registrado em diretório específico ligado ao webservice – Pr
 <center>![Figura 01: Diretório Webservice](../../assets/webservice/ws_direweb.png "Diretório Webservice")
 <br><span>Figura 01: Diretório Webservice</span><br></center>
 
-O mesmo é gerado a partir da execução POST, pelo JOB, da API : FACILE\_CHECKDOC, gerada no ambiente REST.
-
-<center>![Figura 02: Ambiente REST](../../assets/webservice/ws_rest.png "Ambiente REST")
-<br><span>Figura 02: Ambiente REST</span><br></center>
-
 Ao receber o e-mail contendo as informações de divergência, passe-se a observar e ter a ação de click na coluna: Chave.
 
 Ao clicar na informação, será aberto – em navegador WEB (browse), o arquivo contendo as informações apuradas.
 
-<center>![Figura 03: Divergência encontrada](../../assets/webservice/ws_divenc.png "Divergência encontrada")
-<br><span>Figura 03: Divergência encontrada</span><br></center>
+<center>![Figura 02: Divergência encontrada](../../assets/webservice/ws_divenc.png "Divergência encontrada")
+<br><span>Figura 02: Divergência encontrada</span><br></center>
 
 Ao clicar em um dos links abrirá sua consulta:
 
-<center>![Figura 04: Consulta da divergência](../../assets/webservice/ws_consulta.png "Consulta da divergência")
-<br><span>Figura 04: Consulta da divergência</span><br></center>
+<center>![Figura 03: Consulta da divergência](../../assets/webservice/ws_consulta.png "Consulta da divergência")
+<br><span>Figura 03: Consulta da divergência</span><br></center>
 
 
 ## Workflow de notificação Checkdoc
@@ -156,4 +143,4 @@ O workflow será enviado através do job **PTXJ005**, que hoje já é utilizado 
 
 Para desativar o envio do workflow basta configurar o parâmetro **ZZ\_CHKRETR** com o valor 0 (zero).
 
-<div style="text-align: center;">**-FIM-**</div>
+<div style="text-align: center; font-weight: bold;">-FIM-</div>
