@@ -207,7 +207,7 @@ Ao selecionar Outras Ações, um menu aparecerá contendo todas as opções list
 <center>![Figura 28: Menu de Outras Ações](../../assets/manual_usuario/xmle_menuoa.png "Menu de Outras Ações")
 <br><span>Figura 28: Menu de Outras Ações</span><br></center>
 
-* **Pesquisar:** essa funcionalidade disponibiliza uma maneira mais rápida de procurar por um registro, que pode ser feito por meio da chave NF e outros filtros padrão, como mostra a Figura 3. A Figura 4, mostra a tela de pesquisa após clicar no botão *parâmetros*, permitindo a entrada das outras informações para filtragem de acordo com o filtro selecionado.
+* **Pesquisar:** essa funcionalidade disponibiliza uma maneira mais rápida de procurar por um registro, que pode ser feito por meio da chave NF e outros filtros padrão, como mostra a Figura 29. A Figura 30, mostra a tela de pesquisa após clicar no botão *parâmetros*, permitindo a entrada das outras informações para filtragem de acordo com o filtro selecionado.
 
 <center>![Figura 29: Filtros possíveis](../../assets/manual_usuario/xmle_filtros.png "Filtros")
 <br><span>Figura 29: Filtros possíveis</span><br></center>
@@ -367,7 +367,7 @@ Após selecionar as notas desejadas, clicar em Gerar Pré-Nota ou Gerar Doc. Ent
 <center>![Figura 57: Significado das legendas](../../assets/manual_usuario/xmle_significadolegend.png "Significado das legendas")
 <br><span>Figura 57: Significado das legendas</span><br></center>
 
-* **•	Imprimir Browse:** essa opção permite imprimir ou exportar para diversos formatos, toda listagem que aparece na tela Central XML-e. A Figura 58 mostra a tela de impressão/exportação.
+* **Imprimir Browse:** essa opção permite imprimir ou exportar para diversos formatos, toda listagem que aparece na tela Central XML-e. A Figura 58 mostra a tela de impressão/exportação.
 
 <center>![Figura 58: Tela de Impressão/Exportação](../../assets/manual_usuario/xmle_telaimpexport.png "Tela de Impressão/Exportação")
 <br><span>Figura 58: Tela de Impressão/Exportação</span><br></center>
